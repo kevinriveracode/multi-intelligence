@@ -1,0 +1,69 @@
+.welcome-page{
+    display: flex;
+    flex-direction: row;
+    padding: 0em 6em;
+    align-items: center;
+    height: 27em;
+    background: url('http://localhost:3000/welcome.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    h2{
+        color:white;
+        font-weight: 300;
+    }
+    h1{
+        color: white;
+        font-size: 2.5em;
+        font-weight: normal;
+        margin: 0;
+    }
+    p{
+        color:white;
+        font-weight: 300;
+    }
+    .welcome-icon{
+        display: flex;
+        height: 100%;
+        align-items: flex-end;
+        padding-top: 7em;
+    }
+    .welcome-description{
+        display: flex;
+        min-height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        article{
+            h1{
+                margin-bottom: 1em;
+            }
+            h2{
+                margin-bottom: 1em;
+            }
+            p{
+                margin-bottom: 3em;
+            }
+            button{
+                color: #ffffff;
+                font-weight: 700;
+                background: #0b9dcc;
+                border-radius: 3px;
+                border: 2px solid #0b9dcc;
+                padding: .5rem 1rem;
+                font-size: 1rem;
+                min-width: 17em;
+                -webkit-box-shadow: -1px 0px 10px -5px rgba(255,255,255,1);
+                -moz-box-shadow: -1px 0px 10px -5px rgba(255,255,255,1);
+                box-shadow: -1px 0px 10px -5px rgba(255,255,255,1);
+                transition:background-color .5s ease , box-shadow .3s ease-out, border .3s ease;
+            }
+            button:hover{
+                background-color: #003d8f;
+                border: 2px solid #003d8f;
+                -webkit-box-shadow: -1px 0px 10px 3px rgba(255,255,255,1);
+                -moz-box-shadow: -1px 0px 10px 3px rgba(255,255,255,1);
+                box-shadow: -1px 0px 10px 3px rgba(255,255,255,1);
+                transition:background-color .5s ease , box-shadow .3s ease-out, border .3s ease;
+            }
+        }
+    }
+}

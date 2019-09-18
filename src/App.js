@@ -1,24 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import '../src/sass/_positions.scss';
+import '../src/sass/_header.scss';
+import '../src/sass/_fonts.scss';
+import '../src/sass/_welcome-page.scss'
+import HeaderIntelligence from './components/header/header'
+import ViewInicio from './containers/_inicio';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <HeaderIntelligence></HeaderIntelligence>
+    <ViewInicio></ViewInicio>
     </div>
   );
 }
