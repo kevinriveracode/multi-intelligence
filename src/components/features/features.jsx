@@ -5,14 +5,14 @@ class FeatureItem extends Component{
     render(){
         return(
             <div class="flex align-center">
-                <div>
+                <div className="w-50">
                     {/* Slider de diseños */}
                     <img src="http://localhost:3000/templatePizza.jpg"></img>
                 </div>
-                <div>
+                <div className="w-50">
                     {/* Descripcio de la categoria */}
                     <article class="pad-article flex flex-dir-col jus-space-around box-article-size">
-                        <h2>Dale rienda suelta a tu imaginación.</h2>
+                        <h2 className="title">Dale rienda suelta a tu imaginación.</h2>
                         <p class="c-parrafo">No tienes que empezar desde cero. Ponte en marcha con diseños increíbles con imágenes y textos creados a medida para tu industria o idea. 
                             Personalízalo fácilmente y a tu manera. Todas las plantillas se adaptan a los dispositivos móviles. 
                             Preséntate con estilo tanto en un smartphone, una tablet o en un ordenador.</p>
@@ -28,7 +28,7 @@ class Features extends Component{
         return(
             <section class="pad-content">
                 <div class="flex jus-center pad-title">
-                    <h2>Plantillas diseñadas para el éxito</h2>
+                    <h2 className="super-title">Plantillas diseñadas para el éxito</h2>
                 </div>
                 <div>
                     <FeatureItem></FeatureItem>

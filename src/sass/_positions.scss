@@ -1,6 +1,9 @@
 .flex{
     display: flex;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 .flex-dir-row{
     flex-direction: row; 
 }
@@ -36,7 +39,7 @@
     padding: 5em 9vw;
 }
 .pad-title{
-    padding: 3.5rem 0rem;
+    padding: 3rem 0rem;
 }
 .pad-article{
     padding: 0em 2rem;
@@ -49,6 +52,9 @@
 .w-20{
     width: 20%;
 }
+.w-50{
+    width: 50%;
+}
 .w-80{
     width: 80%;
 }
@@ -57,10 +63,27 @@
 }
 /* Color de textos*/
 $color-parrafo :  #797979;
+$color-super-titulo : #001b41;;
 
 .c-parrafo{color: $color-parrafo}
 /*EStilos para listas*/
 
 .no-list{
     list-style: none;
+}
+/*Titulos*/
+.title{
+    color: $color-super-titulo;
+}
+.super-title{
+    color: $color-super-titulo;
+    font-size: 2.55rem;
+    line-height: 3rem;
+}
+/*Personalizados*/
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+}
+.radius{
+    border-radius: 5px;
 }
