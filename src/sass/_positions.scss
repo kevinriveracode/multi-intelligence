@@ -70,9 +70,15 @@
 .w-100{
     width: 100%;
 }
+.self-end{
+    align-self: flex-end;
+}
 /* Alineamiento de textos*/
 .tx-center{
     text-align: center;
+}
+.tx-right{
+    text-align: right;
 }
 /* Color de textos*/
 $color-parrafo :  #797979;
