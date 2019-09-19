@@ -1,0 +1,26 @@
+$dark-blue : #003d8f;
+
+.btn-dark-blue{
+    background: rgba(0,0,0,0);
+    border: 2px solid #003d8f;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #003d8f;
+    padding: .5rem 1rem;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    line-height: 1.5rem;
+    -webkit-transition: color .1s ease-out,background-color .1s ease-out,border-color .1s ease-out;
+    max-width: 18rem;
+}
+.btn-dark-blue:hover{
+    background: #0674b2;
+    color: #fff;
+    border-color: #0674b2;
+    text-decoration: none!important;
+}

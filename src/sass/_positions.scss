@@ -19,15 +19,32 @@
 .jus-flexend{
     justify-content: flex-end;
 }
-
+.jus-space-around{
+    justify-content: space-around;
+}
+.align-center{
+    align-items: center;
+}
 /*Padding Content General*/
 .pad-side-reset{
     padding: 0em 0em;
 }
 .pad-sides-content{
-    padding: 0em 6em;
+    padding: 0em 12vw;
 }
-
+.pad-content{
+    padding: 5em 9vw;
+}
+.pad-title{
+    padding: 3.5rem 0rem;
+}
+.pad-article{
+    padding: 0em 2rem;
+}
+/*Sizes general*/
+.box-article-size{
+    min-height: 19rem;
+}
 /*Width Sizes*/
 .w-20{
     width: 20%;
@@ -38,7 +55,10 @@
 .w-100{
     width: 100%;
 }
+/* Color de textos*/
+$color-parrafo :  #797979;
 
+.c-parrafo{color: $color-parrafo}
 /*EStilos para listas*/
 
 .no-list{
