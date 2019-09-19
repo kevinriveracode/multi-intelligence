@@ -32,6 +32,12 @@
 .pad-side-reset{
     padding: 0em 0em;
 }
+.pad-h-2{
+    padding: 2em 0em;
+}
+.pad-left-2{
+    padding:0em 2em;
+}
 .pad-sides-content{
     padding: 0em 12vw;
 }
@@ -52,6 +58,9 @@
 .w-20{
     width: 20%;
 }
+.w-30{
+    width: 30%;
+}
 .w-50{
     width: 50%;
 }
@@ -60,6 +69,10 @@
 }
 .w-100{
     width: 100%;
+}
+/* Alineamiento de textos*/
+.tx-center{
+    text-align: center;
 }
 /* Color de textos*/
 $color-parrafo :  #797979;
@@ -84,6 +97,20 @@ $color-super-titulo : #001b41;;
 .shadow{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
 }
+.shadow-fidelizacion{
+    box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
 .radius{
     border-radius: 5px;
+}
+/*Bg Color*/
+.bg-white{
+    background-color:white; 
+}
+hr{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 10em;
+    background-color: #001b41;
+    height: 0.03em;
 }

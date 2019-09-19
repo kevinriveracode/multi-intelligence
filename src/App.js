@@ -5,6 +5,8 @@ import '../src/sass/_header.scss';
 import '../src/sass/_fonts.scss';
 import '../src/sass/_welcome-page.scss'
 import '../src/sass/_customButton.scss'
+import '../src/sass/_Fidelizacion.scss';
+
 import HeaderIntelligence from './components/header/header'
 import ViewInicio from './containers/_inicio';
 

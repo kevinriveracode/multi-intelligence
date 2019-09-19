@@ -1,0 +1,14 @@
+.Fidelizacion{
+    background-color: #f1f2f3;
+}
+.circle-option{
+    display: flex;
+    justify-content: center;
+    width: 6em;
+    height: 6em;
+    border:2px solid rgba(0,27,65,1);
+    border-radius: 50%;
+    img{
+        width: 70%;
+    }
+}
