@@ -6,12 +6,15 @@ class HeaderItelligence extends Component{
             <header className="flex flex-dir-col pad-sides-content">
                 <div className="flex jus-between">
                     <div><h1 class="font-title font-raleway">Multi-Intelligence</h1></div>
-                    <div class="flex flex-dir-row al-center w-20 jus-flexend">
+                    <div class="login flex flex-dir-row al-center w-20 jus-flexend">
                         <p class="font-raleway">654 82 67 81</p>
                         <a class="font-title font-raleway m-left-5">Log In</a>
                     </div>
+                    <div className="btn-navegacion">
+                        <img src="http://localhost:3000/svg/btn.svg"></img>
+                    </div>
                 </div>
-                <div>
+                <div className="menu">
                     <nav>
                         <ul className="flex flex-dir-row jus-between no-list pad-side-reset w-80">
                             <li>
