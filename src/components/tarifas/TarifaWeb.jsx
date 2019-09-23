@@ -13,12 +13,12 @@ class Card extends Component{
                 </div>
                 <div>
                     <ul className="no-list">
-                        <li className="tx-blanco">Feature 1</li>
-                        <li className="tx-blanco">Feature 2</li>
-                        <li className="tx-blanco">Feature 3</li>
+                        <li className="tx-center tx-blanco">Feature 1</li>
+                        <li className="tx-center tx-blanco">Feature 2</li>
+                        <li className="tx-center tx-blanco">Feature 3</li>
                     </ul>
                 </div>
-                <div>
+                <div className="flex jus-center">
                     <button className="btn-card radius w-80">
                         Elegir plan
                     </button>
@@ -30,7 +30,7 @@ class Card extends Component{
 class TarifaWeb extends Component{
     render(){
         return(
-            <section className="flex bg-tarifa pad-content jus-center">
+            <section className="h-100 flex bg-tarifa pad-content jus-center">
                 <Card></Card>
                 <Card></Card>
                 <Card></Card>
