@@ -6,7 +6,7 @@ class MarketingPage extends Component {
             <section class="MarketingPage pad-content flex align-center flex-wrap">
                <div className="w-100 pad-title flex jus-center"> <h2 className="super-title">Puedes estar orgulloso de lo que haces</h2></div>
                 <div class="w-50">
-                    <h2 className="pad-article title ">Hazte notar y consigue nuevos visitantes</h2>
+                    
                     <article class="pad-article">
                         <h2 className="title">E-mail marketing</h2>
                         <p className="c-parrafo">Crea increíbles newsletters y campañas de e-mail con el manager de e-mail marketing y no pierdas el contacto con tus clientes</p>

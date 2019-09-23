@@ -7,6 +7,8 @@ import Responsive from '../components/Responsive/Responsive';
 import FidelizacionMessage from '../components/FidelizacionMessage/FidelizacionMessage'
 import Message from '../components/Message/Message';
 import MessageReverse from '../components/Message/MessageReverse';
+import TarifaWeb from '../components/tarifas/TarifaWeb';
+
 export default class ViewInicio extends Component {
     
     render(){
@@ -21,6 +23,7 @@ export default class ViewInicio extends Component {
                 <Fidelizacion></Fidelizacion>
                 <MarketingPage></MarketingPage>
                 <FidelizacionMessage></FidelizacionMessage>
+                <TarifaWeb></TarifaWeb>
             </section>
         )
     }
