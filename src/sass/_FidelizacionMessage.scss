@@ -1,0 +1,23 @@
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .flags{
+        flex-wrap: wrap;
+    }
+    .flag{
+        width: 11em;
+        margin-bottom: 5em;
+    }
+    
+    .bandera {
+        width: 0px;
+        height: 5em;
+        border-left: 87px solid #001b41;
+        border-right: 89px solid #001b41;
+        border-bottom: 35px solid transparent;
+        position: relative;
+        top: 34px;
+    }
+}

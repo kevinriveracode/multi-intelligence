@@ -8,7 +8,7 @@ class Responsive extends Component{
                     <h1 className="super-title tx-center">Responsive Design en todos Nuestros diseños</h1>
                     <h1 className="tx-center title">Nuestros trabajos estan siempre orientados a la adaptabilidad de cualquier dispositivos</h1>
                 </div>
-                <div className="w-33 pad-article flex flex-dir-col jus-evenly">
+                <div className="ResponsiveArticles w-33 pad-article flex flex-dir-col jus-evenly">
                     <div className="flex flex-dir-col jus-center">
                         <h3 className="tx-right title">¿Qué es el diseño web Adaptable?</h3>
                         <p className="tx-right c-parrafo">Tu pagina web se verá perfecta independientemente del dispositivo desde el que se esta
@@ -23,10 +23,10 @@ class Responsive extends Component{
                         </p>
                     </div>                   
                 </div>
-                <div className="w-20 flex jus-center">
+                <div className="ResponsiveImage w-20 flex jus-center">
                     <img src="http://localhost:3000/svg/apple.svg"></img>
                 </div>
-                <div className="w-33 pad-article flex flex-dir-col jus-evenly">
+                <div className="ResponsiveArticles w-33 pad-article flex flex-dir-col jus-evenly">
                     <div className="flex flex-dir-col jus-center">
                         <h3 className=" title">Internet es móvil</h3>
                         

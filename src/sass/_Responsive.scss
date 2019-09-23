@@ -1,3 +1,23 @@
 .Responsive{
     
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .ResponsiveArticles{
+      width: 100%;
+      div{
+          h3{
+            text-align: left;
+          }
+          p{
+            text-align: left;
+          }
+      }
+  }
+  .ResponsiveImage{
+      display: none;
+  }
+}

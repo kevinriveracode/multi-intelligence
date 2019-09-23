@@ -51,12 +51,12 @@ class CmsItems extends Component{
         }
     }
     typeclass = (el) => {
-        let clases = el + " " + " radius-top bg-primary shadow h-12  w-20 al-center  flex flex-dir-col jus-center"
+        let clases = el + " " + "flag radius-top bg-primary shadow h-12  w-20 al-center  flex flex-dir-col jus-center"
         return clases;
     }
     render(){
         return(
-            <section className="flex jus-between mgh1 ">
+            <section className="flags flex jus-between mgh1 ">
                 {this.state.lista.map((el)=>{
                     return(
                         <div className={this.typeclass(el.style)}>

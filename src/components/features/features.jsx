@@ -4,12 +4,12 @@ import CustomButton from '../button/button';
 class FeatureItem extends Component{
     render(){
         return(
-            <div class="flex align-center">
-                <div className="w-50">
+            <div class="flex align-center Features">
+                <div className="w-50 SliderFeatures">
                     {/* Slider de diseños */}
                     <img src="http://localhost:3000/templatePizza.jpg"></img>
                 </div>
-                <div className="w-50">
+                <div className="w-50 DescriptionFeatures">
                     {/* Descripcio de la categoria */}
                     <article class="pad-article flex flex-dir-col jus-space-around box-article-size">
                         <h2 className="title">Dale rienda suelta a tu imaginación.</h2>
