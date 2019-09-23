@@ -35,6 +35,9 @@
 .pad-side-reset{
     padding: 0em 0em;
 }
+.pad-full-1{
+    padding:1em 1em;
+}
 .pad-h-2{
     padding: 2em 0em;
 }
@@ -67,6 +70,10 @@
 /*Font-size*/
 .tx-small{
     font-size: 1.3em;
+}
+/*Font weight*/
+.tx-bold{
+    font-weight: bold;
 }
 /*Width Sizes*/
 .w-20{
@@ -106,6 +113,9 @@
 }
 .mgh1{
     margin:2em 0em;
+}
+.mgw2{
+    margin:0em 2em;
 }
 /* Alineamiento de textos*/
 .tx-center{
@@ -169,7 +179,8 @@ $gris-tarifa: #282A37;
     background: rgba(0,0,0,0.5);
 }
 .bg-card{
-    background-color: #262C33;
+    background:rgba(255,255,255,0.3);
+    border:2px solid white;
 }
 .bg-gray-ligero{
     background-color: $gris-ligero;
@@ -187,7 +198,7 @@ $gris-tarifa: #282A37;
     background-color: $color-super-titulo;
 }
 .bg-tarifa{
-    background-color: $gris-tarifa;
+    background: linear-gradient(45deg, #7e67e5, #02cbdf);
 }
 hr{
     margin-left: 0px;
@@ -217,4 +228,14 @@ hr{
     border-bottom: 35px solid transparent;
     position: relative;
     top: 34px;
+}
+/*Btn*/
+.btn-card{
+    font-weight: bold;
+    flex: none;
+    margin: auto 1em 1em;
+    padding: 1.25em 2em;
+    background-color: #001b41;
+    color: #ffffff;
+    border:2px solid #02cbdf;
 }
