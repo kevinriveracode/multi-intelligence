@@ -39,7 +39,7 @@ class TarifaWeb extends Component{
         this.state = {
             tarifas:[
                 {
-                    name:'Pack Pymes',
+                    name:'BASIC',
                     descripcion:'Para pymes que buscan crecer',
                     precio:'399$',
                     caracteristicas:[
@@ -49,7 +49,7 @@ class TarifaWeb extends Component{
                     ]
                 },
                 {
-                    name: 'Pack Pro',
+                    name: 'PRO',
                     descripcion: 'Para empresas consolidadas que buscan expandirse',
                     precio: '699$',
                     caracteristicas: [
@@ -59,7 +59,7 @@ class TarifaWeb extends Component{
                     ]
                 },
                 {
-                    name: 'Pack Enterprise',
+                    name: 'PREMIUM',
                     descripcion: 'Para grandes empresas',
                     precio: '800$',
                     caracteristicas: [

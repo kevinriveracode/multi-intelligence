@@ -1,4 +1,5 @@
 import React , {Component } from 'react';
+import CustomButton from '../../components/button/button';
 
 class Message extends Component{
     constructor(props){
@@ -19,8 +20,9 @@ class Message extends Component{
                             <h2 className="super-title">{this.props.title}</h2>
                             <p className="c-text-secondary">{this.props.description}</p>
                             <ul className="no-list">
-                                {this.props.features.map((item) => <li className="c-primary">{item}</li>)}
+                                {this.props.features.map((item) => <li className="c-primary"><img class="comprobar" src="http://localhost:3000/comprobar.svg"></img>{item}</li>)}
                             </ul>
+                            <CustomButton btn="btn-dark-blue" text="Saber Mas"></CustomButton>
                         </article>
                     </div>
                 </div>

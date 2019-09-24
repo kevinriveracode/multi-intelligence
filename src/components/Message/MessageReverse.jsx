@@ -1,5 +1,5 @@
 import React , {Component } from 'react';
-
+import CustomButton from '../button/button';
 class MessageReverse extends Component{
     constructor(props){
         super(props);
@@ -16,8 +16,9 @@ class MessageReverse extends Component{
                             <h2 className="super-title">{this.props.title}</h2>
                             <p className="c-text-secondary">{this.props.description}</p>
                             <ul className="no-list">
-                                {this.props.features.map((item) => <li className="c-primary">{item}</li>)}
+                                {this.props.features.map((item) => <li className="c-primary"><img src="http://localhost:3000/comprobar.svg" class="comprobar"></img>{item}</li>)}
                             </ul>
+                            <CustomButton btn="btn-dark-blue" text="Saber Mas"></CustomButton>
                         </article>
                     </div>
                     <div className="w-50">
