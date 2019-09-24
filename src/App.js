@@ -12,7 +12,8 @@ import '../src/sass/_MarketingPage.scss';
 import '../src/sass/_FidelizacionMessage.scss';
 import '../src/sass/_general.scss';
 
-import HeaderIntelligence from './components/header/header'
+import HeaderIntelligence from './components/header/header';
+import FooterIntelligence from '../src/components/Footer/Footer';
 import ViewInicio from './containers/_inicio';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <div>
     <HeaderIntelligence></HeaderIntelligence>
     <ViewInicio></ViewInicio>
+    <FooterIntelligence></FooterIntelligence>
     </div>
   );
 }

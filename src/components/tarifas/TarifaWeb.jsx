@@ -1,18 +1,13 @@
 import React , {Component} from 'react'
+import CustomButton from '../button/button';
 
 class Card extends Component{
     render(){
         return(
-            /*
-                titulo pack
-                descripcion pack
-                precio pack
-                caracteristicas = []
-            */ 
-            <div className="w-25 bg-card mgw2 pad-full-1 radius shadow jus-center">
+            <div className="card w-25 bg-card mgw2 pad-full-1 radius shadow jus-center">
                 <div>
-                    <h3 className="tx-bold tx-center tx-blanco">{this.props.nombre}</h3>
-                    <p className="tx-blanco tx-center">{this.props.descripcion}</p>
+                    <h3 className="tx-2em tx-bold tx-center tx-blanco">{this.props.nombre}</h3>
+                    <p className="tx-blanco tx-bold tx-center">{this.props.descripcion}</p>
                 </div>
                 <div>
                     <h2 className="super-title tx-center tx-bold">{this.props.precio}</h2>
@@ -25,9 +20,7 @@ class Card extends Component{
                     </ul>
                 </div>
                 <div className="flex jus-center">
-                    <button className="btn-card radius w-80">
-                        Elegir plan
-                    </button>
+                    <CustomButton text="Elegir Plan" btn="btn-dark-blue"></CustomButton>
                 </div>
             </div>
         )

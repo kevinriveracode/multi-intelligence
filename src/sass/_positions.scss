@@ -230,6 +230,10 @@ hr{
     position: relative;
     top: 34px;
 }
+.copyright{
+    position: relative;
+    top: 60px;
+}
 /*Btn*/
 .btn-card{
     font-weight: bold;
@@ -240,10 +244,19 @@ hr{
     color: #ffffff;
     border:2px solid #02cbdf;
 }
+.card{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
 
+}
 /*Imagenes*/
-
 .comprobar{
     width: 15px;
     margin-right: 5px;
+}
+/*Text size*/
+
+.tx-2em{
+    font-size: 2em;
 }

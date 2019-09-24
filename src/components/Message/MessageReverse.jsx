@@ -21,7 +21,7 @@ class MessageReverse extends Component{
                             <CustomButton btn="btn-dark-blue" text="Saber Mas"></CustomButton>
                         </article>
                     </div>
-                    <div className="w-50">
+                    <div className="w-50 flex jus-center">
                         <img className="w-70" src={this.state.url}></img>
                     </div>   
                 </div>
